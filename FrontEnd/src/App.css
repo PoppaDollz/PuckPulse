@@ -1,0 +1,40 @@
+#root {
+  width:100vw;
+  height:100vh;
+}
+
+.gameMatchup {
+  display:flex;
+  justify-content:space-between;
+  width:400px;
+  height:50px;
+  border:1px solid white;
+  /* padding:10px; */
+}
+
+.teamCard {
+  display:flex;
+  width:50%;
+  justify-content:space-around;
+}
+
+.matchupLogo {
+  height:80%;
+}
+
+.matchup-logo-container {
+  display:flex;
+  flex-direction:column;
+  /* height:100%; */
+}
+
+.teamName {
+  height:20%;
+}
+
+.matchup-score-container {
+  display:flex;
+  font-size:24px;
+  align-items:center;
+  justify-content:center;
+}
